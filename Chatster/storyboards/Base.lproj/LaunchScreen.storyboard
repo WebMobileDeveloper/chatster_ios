@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RsT-Np-Uot"/>
+                        <viewControllerLayoutGuide type="bottom" id="iQv-wb-tua"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1- launch" translatesAutoresizingMaskIntoConstraints="NO" id="W8x-gd-QIi" userLabel="launch image">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera_and_message_title" translatesAutoresizingMaskIntoConstraints="NO" id="0Eh-v0-Sot">
+                                <rect key="frame" x="102" y="150" width="170" height="200"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Eh-v0-Sot" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="17o-v6-OS5"/>
+                            <constraint firstItem="0Eh-v0-Sot" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="200:667" id="31E-M6-KgX"/>
+                            <constraint firstAttribute="trailing" secondItem="W8x-gd-QIi" secondAttribute="trailing" id="88w-Is-sBJ"/>
+                            <constraint firstItem="W8x-gd-QIi" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="EaN-0W-nVH"/>
+                            <constraint firstItem="iQv-wb-tua" firstAttribute="top" secondItem="W8x-gd-QIi" secondAttribute="bottom" id="ZPI-Hp-cdy"/>
+                            <constraint firstItem="W8x-gd-QIi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="n1a-gf-0Lj"/>
+                            <constraint firstItem="0Eh-v0-Sot" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="170:375" id="nhW-Sg-DgO"/>
+                            <constraint firstItem="0Eh-v0-Sot" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="bottom" multiplier="150:667" id="xsI-1W-bZF"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1- launch" width="375" height="667"/>
+        <image name="camera_and_message_title" width="100" height="130"/>
+    </resources>
+</document>
